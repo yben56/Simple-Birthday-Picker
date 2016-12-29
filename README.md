@@ -2,7 +2,7 @@ Simpler Birthday Picker Plugin
 ==============================
 
 ##Demo
-(https://yben56.github.io/Simple-Birthday-Picker/)
+https://yben56.github.io/Simple-Birthday-Picker/
 
 ##Usage
 Create a div and wrap month, day and year insdie it. Make sure month > day > year are in the right order.
