@@ -1,0 +1,12 @@
+.container {
+	margin-top: 200px;	
+}
+
+.jumbotron p {
+	font-size: 14px;	
+}
+
+.group {
+	margin: 0 auto;
+	max-width: 750px;	
+}

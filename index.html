@@ -1,0 +1,49 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="css/main.css" type="text/css" />
+
+<script type="text/javascript" src="src/birthday.js"></script>
+<script type="text/javascript">
+window.onload = function(){
+	bday('.myBday');
+	bday('.yourBday');
+	
+};
+</script>
+
+<div class="container">
+    <div class="row">
+        <div class="jumbotron alert alert-warning">
+            <h2>Simple Birthday Picker</h2> 
+            <p>
+            Simple 'bDay' picker is a simpler Javascript plugin.<br />
+            It include:<br />
+            1. (Jan, Mar, May, Jul, Aug, Oct, Dec in 31 days)<br />
+            2. (Feb in 29 days), (Apl, Jun, Sep, Nov in 30 days)<br />
+            3. Leap year when user choose Feb 29.<br />
+            *** released under MIT License *** 
+            </p> 
+        </div>
+    </div>
+    
+    <br />
+
+	<div class="row">
+		<div class="group">
+        	<label class="col-sm-2">My Birthday</label>
+            <div class="myBday col-sm-4">
+                <select></select>
+                <select></select>
+                <select></select>
+            </div>
+
+        	<label class="col-sm-2">Your Birthday</label>
+            <div class="yourBday col-sm-4">
+                <select></select>
+                <select></select>
+                <select></select>
+            </div>
+		</div>
+    </div>
+
+    
+</div>
